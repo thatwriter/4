@@ -26,8 +26,10 @@ Despierto con la alarma, me levanto a preparar mi mochila, reviso el horario, to
 (set: $musica to 0)
 [pongo mi música favorita.]<c1| [ ó ]<c3| [pongo música en aleatorio.]<c2|
 []<c4|
-(click: ?c1)[ (replace:?c2)[] (replace:?c3)[] (set: $musica to 1) (replace:?c4)[ [[Dirigirme al trabajo.->11a09a0b-3192-41d9-a702-3c6cb0f46b92]] ]]
-(click: ?c2)[ (replace:?c1)[] (replace:?c3)[] (set: $musica to 2) (replace:?c4)[ [[Dirigirme al trabajo.->11a09a0b-3192-41d9-a702-3c6cb0f46b92]] ]]
+(click: ?c1)[ (replace:?c2)[] (replace:?c3)[] (set: $musica to 1) (replace:?c4)[
+[[Dirigirme al trabajo.->11a09a0b-3192-41d9-a702-3c6cb0f46b92]] ]]
+(click: ?c2)[ (replace:?c1)[] (replace:?c3)[] (set: $musica to 2) (replace:?c4)[
+[[Dirigirme al trabajo.->11a09a0b-3192-41d9-a702-3c6cb0f46b92]] ]]
 :: 11a09a0b-3192-41d9-a702-3c6cb0f46b92 {"position":"100,400","size":"100,100"}
 ##Dirigirme al trabajo
 Llegué a la fila para el transporte, deseando que esta vez no demore 20 minutos de nuevo en salir. Reviso con mi mano, que todavía esté el gafete colgado de mi pantalón.
