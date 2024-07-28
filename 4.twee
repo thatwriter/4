@@ -1,0 +1,74 @@
+:: StoryTitle
+index
+
+
+:: StoryData
+{
+"ifid": "2049B4D0-8780-4D59-A71A-2F3FF912A8E9",
+"format": "Harlowe",
+"format-version": "3.3.9",
+"start": "91b0b212-a19f-45e0-ad07-fc2cec560dca",
+"zoom": 1
+}
+:: 1c2d2167-81e6-445d-9e23-a4ae4ed65138 {"position":"100,100","size":"100,100"}
+##La noche
+Me despierta el rugir de una motocicleta, tiene el sonido peculiar de las modificaciones que les hacen para aturdir, yo sigo sin encontrarle sentido a eso, me molesta, claro que me molesta, pero tampoco he querido oponerme, son demasiado violentos, sin embargo estar de su lado sería bueno, cuando me decida a hacer algo.
+
+[[Volver a acostarme.|d0174f7f-d2bb-46d1-bf01-3ecea2ee0b3b]]
+[[Levantarme por un vaso de agua.|a2bd1c8c-456c-405c-bd2f-66ac7c4baa33]]
+:: d0174f7f-d2bb-46d1-bf01-3ecea2ee0b3b {"position":"100,250","size":"100,100"}
+##Volver a acostarme
+Tardo poco en conciliar el sueño.
+
+Durante la noche al menos un par de veces estuve en alerta, sin despertar por completo.
+
+Despierto con la alarma, me levanto a preparar mi mochila, reviso el horario, tomo mis audífonos y
+(set: $musica to 0)
+[pongo mi música favorita.]<c1| [ ó ]<c3| [pongo música en aleatorio.]<c2|
+[]<c4|
+(click: ?c1)[ (replace:?c2)[] (replace:?c3)[] (set: $musica to 1) (replace:?c4)[ [[Dirigirme al trabajo.->11a09a0b-3192-41d9-a702-3c6cb0f46b92]] ]]
+(click: ?c2)[ (replace:?c1)[] (replace:?c3)[] (set: $musica to 2) (replace:?c4)[ [[Dirigirme al trabajo.->11a09a0b-3192-41d9-a702-3c6cb0f46b92]] ]]
+:: 11a09a0b-3192-41d9-a702-3c6cb0f46b92 {"position":"100,400","size":"100,100"}
+##Dirigirme al trabajo
+Llegué a la fila para el transporte, deseando que esta vez no demore 20 minutos de nuevo en salir. Reviso con mi mano, que todavía esté el gafete colgado de mi pantalón.
+Frente a mí se encuentra un chico que ya he visto un par de veces al menos, sigo sin saber su nombre, pues su trayecto es más corto y no me da tiempo de poner atención entre estaciones, sin embargo me parece alguien agradable.
+Avanza el primer bloque de 25 personas en el siguiente camión. Me quedo al menos con otras 20 personas del inicio de la fila.(set: $n/a to 0)
+[.]<c1| [ ó ]<c3| [.]<c2|
+[]<c4|
+(click: ?c1)[ (replace:?c2)[] (replace:?c3)[] (set: $n/a to 1) (replace:?c4)[ [[Analizar la mochila.->0f44a704-5c86-417d-b82f-d827a2bf2ffa]]
+[[Girar la cabeza para observar tras de mi.->efa4fe2c-8d23-46b4-a948-2daf41fec1fd]] ]]
+(click: ?c2)[ (replace:?c1)[] (replace:?c3)[] (set: $n/a to 2) (replace:?c4)[ [[Analizar la mochila.->0f44a704-5c86-417d-b82f-d827a2bf2ffa]]
+[[Girar la cabeza para observar tras de mi.->efa4fe2c-8d23-46b4-a948-2daf41fec1fd]] ]]
+:: a2bd1c8c-456c-405c-bd2f-66ac7c4baa33 {"position":"250,250","size":"100,100"}
+##Levantarme por un vaso de agua
+
+
+[[Parte sin desarrollar.|15579d77-efef-4a1e-ac46-0aca7ca04c81]]
+:: 15579d77-efef-4a1e-ac46-0aca7ca04c81 {"position":"250,400","size":"100,100"}
+##Parte sin desarrollar
+Hoy 26/07/2024 todavía no tengo planeado seguir esta parte, por lo que si quieres continuar con la historia que se desarrolla, reinicia y elige la otra opción, en donde también estoy explorando las capacidades del programa
+Por el contrario, si ya lo exploraste y quieres elegir otro camino, o quieres saber más, visita el reddit, subí una declaración de intenciones, y será mi sitio de actualizaciones:
+<a href="https://www.reddit.com/r/proyecto0/s/52JUMJBMtR" target="_blank">Reddit</a>
+
+
+También puedes volver al inicio
+
+[[La noche.|1c2d2167-81e6-445d-9e23-a4ae4ed65138]]
+:: 0f44a704-5c86-417d-b82f-d827a2bf2ffa {"position":"100,550","size":"100,100"}
+##Analizar la mochila
+Tiene un colgante bastante peculiar, pareciera de alta calidad, pero tan fuera de lo común que no puedo creer que lo tenga, tiene un símbolo que no conozco.
+Antes de que pueda siquiera acercarme a preguntarle, llega el siguiente camión y comienzan a agitarse en la fila.
+(if: $musica is 1)[Una vez que comienzan a avanzar, cuento los que han subido, terminan los 25 en el chico de la mochila.](if: $musica is 2)[Detengo la música para poner atención en lo que puedan decir antes de subir.
+El chico de la mochila dice casi en susurro, menos mal que no subes en este camión.]
+
+[[Esperar a que llegue el siguiente camión.|e9e77ab6-cb0e-4078-ba50-814dc9710d0a]]
+:: efa4fe2c-8d23-46b4-a948-2daf41fec1fd {"position":"250,550","size":"100,100"}
+##Girar la cabeza para observar tras de mi
+
+
+[[Esperar a que llegue el siguiente camión.|e9e77ab6-cb0e-4078-ba50-814dc9710d0a]]
+:: e9e77ab6-cb0e-4078-ba50-814dc9710d0a {"position":"100,700","size":"100,100"}
+##Esperar a que llegue el siguiente camión
+
+
+[[Parte sin desarrollar.|15579d77-efef-4a1e-ac46-0aca7ca04c81]]
