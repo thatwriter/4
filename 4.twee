@@ -40,10 +40,14 @@ Avanza el primer bloque de 25 personas en el siguiente camión. Me quedo al meno
 [[Girar la cabeza para observar tras de mi.|efa4fe2c-8d23-46b4-a948-2daf41fec1fd]]
 :: a2bd1c8c-456c-405c-bd2f-66ac7c4baa33 {"position":"250,250","size":"100,100"}
 ##Levantarme por un vaso de agua
-
-
-[[Parte sin desarrollar.|15579d77-efef-4a1e-ac46-0aca7ca04c81]]
-:: 15579d77-efef-4a1e-ac46-0aca7ca04c81 {"position":"250,400","size":"100,100"}
+No puedo dejar de pensar en lo que pudieron haber estado haciendo los chicos en la moto. Llegando a la cocina, tomo el primer vaso de vidrio y me sirvo agua, bebo un trago mientras camino a mi escritorio, me acerco a mi diario(set: $escribir to 0)
+[para escribir.]<c1| [ ó ]<c3| [para leerlo.]<c2|
+[]<c4|
+(click: ?c1)[ (replace:?c2)[] (replace:?c3)[] (set: $escribir to 1) (replace:?c4)[
+[[Abro mi diario.->337eae6b-8c07-481c-9bd0-c9aa954bf132]] ]]
+(click: ?c2)[ (replace:?c1)[] (replace:?c3)[] (set: $escribir to 2) (replace:?c4)[
+[[Abro mi diario.->337eae6b-8c07-481c-9bd0-c9aa954bf132]] ]]
+:: 15579d77-efef-4a1e-ac46-0aca7ca04c81 {"position":"100,850","size":"100,100"}
 ##Parte sin desarrollar
 Hoy 26/07/2024 todavía no tengo planeado seguir esta parte, por lo que si quieres continuar con la historia que se desarrolla, reinicia y elige la otra opción, en donde también estoy explorando las capacidades del programa
 Por el contrario, si ya lo exploraste y quieres elegir otro camino, o quieres saber más, visita el reddit, subí una declaración de intenciones, y será mi sitio de actualizaciones:
@@ -63,11 +67,18 @@ El chico de la mochila dice casi en susurro, menos mal que no subes en este cami
 [[Esperar a que llegue el siguiente camión.|e9e77ab6-cb0e-4078-ba50-814dc9710d0a]]
 :: efa4fe2c-8d23-46b4-a948-2daf41fec1fd {"position":"250,550","size":"100,100"}
 ##Girar la cabeza para observar tras de mi
-
+La fila se hizo larga rápidamente y comienzo a sentir desesperación, normalmente a esta hora suelen llegar más personas, porque es el horario principal de entrada en la mayoría de puestos de trabajo de producción.
+Entra en la fila Pedro, compañero de otra área del trabajo, a quien saludo levantando la palma, me devuelve el saludo y se agacha a revisarse las agujetas de los zapatos.
+Comienza a avanzar la fila y me giro para ver al frente.
 
 [[Esperar a que llegue el siguiente camión.|e9e77ab6-cb0e-4078-ba50-814dc9710d0a]]
 :: e9e77ab6-cb0e-4078-ba50-814dc9710d0a {"position":"100,700","size":"100,100"}
 ##Esperar a que llegue el siguiente camión
+
+
+[[Parte sin desarrollar.|15579d77-efef-4a1e-ac46-0aca7ca04c81]]
+:: 337eae6b-8c07-481c-9bd0-c9aa954bf132 {"position":"250,400","size":"100,100"}
+##Abro mi diario
 
 
 [[Parte sin desarrollar.|15579d77-efef-4a1e-ac46-0aca7ca04c81]]
